@@ -64,3 +64,41 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+div.campo > label {
+    display: none;
+}
+/*
+form > div#log {
+    display: block;
+    text-align: center;
+}
+*/
+form > div#log > input[type=submit] {
+    display: block;
+    margin: 7px;
+    font-size: 1em;
+    color: white;
+    width: 60%;
+    height: 25px;
+    background-color: var(--cor1);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form > div#log > input[type=submit]:hover {
+    background-color: #95cac8;
+    cursor: pointer;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+form > a.botao:hover {
+    text-decoration: underline;
+    
+}
